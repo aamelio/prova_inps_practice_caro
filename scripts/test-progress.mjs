@@ -6,7 +6,7 @@ const html=fs.readFileSync("index.html","utf8");
 const script=html.match(/<script>([\s\S]*?)<\/script>/)?.[1];
 assert.ok(script,"Inline application script must exist");
 new vm.Script(script);
-const questionFiles=[...html.matchAll(/<script src="([^"]+)"/g)].map(m=>m[1]);
+const questionFiles=[...html.matchAll(/<script src="([^"]+)"/g)].map(m=>m[1]).filter(p=>p.startsWith("data/"));
 assert.ok(questionFiles.length>=1,"Question scripts must exist");
 const bankContext={window:{}};
 vm.createContext(bankContext);
