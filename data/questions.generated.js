@@ -3404,7 +3404,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0201",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 6 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 1: un addetto tratta 6 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "18",
       "15",
@@ -3421,7 +3421,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0202",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 12 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 2: un addetto tratta 12 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "24",
       "28",
@@ -3438,7 +3438,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0203",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 20 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 3: un addetto tratta 20 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "35",
       "45",
@@ -3455,7 +3455,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0204",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 30 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 4: un addetto tratta 30 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "48",
       "60",
@@ -3472,7 +3472,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0205",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 42 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 5: un addetto tratta 42 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "70",
       "63",
@@ -3489,7 +3489,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0206",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 16 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 6: un addetto tratta 16 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "40",
       "48",
@@ -3506,7 +3506,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0207",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 27 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 7: un addetto tratta 27 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "54",
       "72",
@@ -3523,7 +3523,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0208",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 40 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 8: un addetto tratta 40 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "70",
       "90",
@@ -3540,7 +3540,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0209",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 15 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 9: un addetto tratta 15 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "27",
       "24",
@@ -3557,7 +3557,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0210",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 24 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 10: un addetto tratta 24 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "36",
       "40",
@@ -3574,7 +3574,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0211",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 10 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 11: un addetto tratta 10 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "25",
       "35",
@@ -3591,7 +3591,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0212",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 18 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 12: un addetto tratta 18 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "36",
       "48",
@@ -3608,7 +3608,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0213",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 28 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 13: un addetto tratta 28 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "56",
       "49",
@@ -3625,7 +3625,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0214",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 40 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 14: un addetto tratta 40 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "64",
       "72",
@@ -3642,7 +3642,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0215",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 54 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 15: un addetto tratta 54 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "81",
       "99",
@@ -3659,7 +3659,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0216",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 20 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 16: un addetto tratta 20 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "50",
       "70",
@@ -3676,7 +3676,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0217",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 9 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 17: un addetto tratta 9 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "21",
       "18",
@@ -3693,7 +3693,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0218",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 16 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 18: un addetto tratta 16 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "28",
       "32",
@@ -3710,7 +3710,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0219",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 25 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 19: un addetto tratta 25 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "40",
       "50",
@@ -3727,7 +3727,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0220",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 36 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 20: un addetto tratta 36 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "54",
       "66",
@@ -3744,7 +3744,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0221",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 14 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 21: un addetto tratta 14 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "42",
       "35",
@@ -3761,7 +3761,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0222",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 24 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 22: un addetto tratta 24 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "48",
       "56",
@@ -3778,7 +3778,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0223",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 36 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 23: un addetto tratta 36 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "63",
       "81",
@@ -3795,7 +3795,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0224",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 50 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 24: un addetto tratta 50 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "80",
       "100",
@@ -3812,7 +3812,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0225",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 18 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 25: un addetto tratta 18 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "30",
       "27",
@@ -3829,7 +3829,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0226",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 8 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 26: un addetto tratta 8 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "20",
       "24",
@@ -3846,7 +3846,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0227",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 15 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 27: un addetto tratta 15 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "30",
       "40",
@@ -3863,7 +3863,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0228",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 24 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 28: un addetto tratta 24 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "42",
       "54",
@@ -3880,7 +3880,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0229",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 35 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 29: un addetto tratta 35 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "63",
       "56",
@@ -3897,7 +3897,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0230",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 48 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 30: un addetto tratta 48 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "72",
       "80",
@@ -3914,7 +3914,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0231",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 18 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 31: un addetto tratta 18 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "45",
       "63",
@@ -3931,7 +3931,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0232",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 30 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 32: un addetto tratta 30 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "60",
       "80",
@@ -3948,7 +3948,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0233",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 12 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 33: un addetto tratta 12 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "24",
       "21",
@@ -3965,7 +3965,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0234",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 20 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 34: un addetto tratta 20 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "32",
       "36",
@@ -3982,7 +3982,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0235",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 30 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 35: un addetto tratta 30 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "45",
       "55",
@@ -3999,7 +3999,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0236",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 12 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 36: un addetto tratta 12 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "30",
       "42",
@@ -4016,7 +4016,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0237",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 21 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 37: un addetto tratta 21 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "49",
       "42",
@@ -4033,7 +4033,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0238",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 32 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 38: un addetto tratta 32 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "56",
       "64",
@@ -4050,7 +4050,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0239",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 45 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 39: un addetto tratta 45 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "72",
       "90",
@@ -4067,7 +4067,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0240",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 60 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 40: un addetto tratta 60 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "90",
       "110",
@@ -4084,7 +4084,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0241",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 6 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 41: un addetto tratta 6 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "18",
       "15",
@@ -4101,7 +4101,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0242",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 12 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 42: un addetto tratta 12 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "24",
       "28",
@@ -4118,7 +4118,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0243",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 20 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 43: un addetto tratta 20 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "35",
       "45",
@@ -4135,7 +4135,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0244",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 30 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 44: un addetto tratta 30 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "48",
       "60",
@@ -4152,7 +4152,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0245",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 42 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 45: un addetto tratta 42 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "70",
       "63",
@@ -4169,7 +4169,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0246",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 16 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 46: un addetto tratta 16 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "40",
       "48",
@@ -4186,7 +4186,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0247",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 27 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 47: un addetto tratta 27 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "54",
       "72",
@@ -4203,7 +4203,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0248",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 40 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 48: un addetto tratta 40 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "70",
       "90",
@@ -4220,7 +4220,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0249",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 15 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 49: un addetto tratta 15 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "27",
       "24",
@@ -4237,7 +4237,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0250",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 24 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 50: un addetto tratta 24 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "36",
       "40",
@@ -4254,7 +4254,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0251",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 10 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 51: un addetto tratta 10 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "25",
       "35",
@@ -4271,7 +4271,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0252",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 18 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 52: un addetto tratta 18 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "36",
       "48",
@@ -4288,7 +4288,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0253",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 28 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 53: un addetto tratta 28 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "56",
       "49",
@@ -4305,7 +4305,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0254",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 40 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 54: un addetto tratta 40 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "64",
       "72",
@@ -4322,7 +4322,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0255",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 54 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 55: un addetto tratta 54 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "81",
       "99",
@@ -4339,7 +4339,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0256",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 20 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 56: un addetto tratta 20 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "50",
       "70",
@@ -4356,7 +4356,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0257",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 9 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 57: un addetto tratta 9 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "21",
       "18",
@@ -4373,7 +4373,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0258",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 16 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 58: un addetto tratta 16 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "28",
       "32",
@@ -4390,7 +4390,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0259",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 25 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 59: un addetto tratta 25 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "40",
       "50",
@@ -4407,7 +4407,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0260",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 36 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 60: un addetto tratta 36 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "54",
       "66",
@@ -4424,7 +4424,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0261",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 14 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 61: un addetto tratta 14 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "42",
       "35",
@@ -4441,7 +4441,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0262",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 24 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 62: un addetto tratta 24 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "48",
       "56",
@@ -4458,7 +4458,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0263",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 36 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 63: un addetto tratta 36 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "63",
       "81",
@@ -4475,7 +4475,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0264",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 50 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 64: un addetto tratta 50 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "80",
       "100",
@@ -4492,7 +4492,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0265",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 18 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 65: un addetto tratta 18 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "30",
       "27",
@@ -4509,7 +4509,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0266",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 8 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 66: un addetto tratta 8 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "20",
       "24",
@@ -4526,7 +4526,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0267",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 15 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 67: un addetto tratta 15 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "30",
       "40",
@@ -4543,7 +4543,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0268",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 24 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 68: un addetto tratta 24 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "42",
       "54",
@@ -4560,7 +4560,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0269",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 35 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 69: un addetto tratta 35 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "63",
       "56",
@@ -4577,7 +4577,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0270",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 48 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 70: un addetto tratta 48 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "72",
       "80",
@@ -4594,7 +4594,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0271",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 18 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 71: un addetto tratta 18 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "45",
       "63",
@@ -4611,7 +4611,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0272",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 30 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 72: un addetto tratta 30 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "60",
       "80",
@@ -4628,7 +4628,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0273",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 12 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 73: un addetto tratta 12 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "24",
       "21",
@@ -4645,7 +4645,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0274",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 20 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 74: un addetto tratta 20 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "32",
       "36",
@@ -4662,7 +4662,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0275",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 30 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 75: un addetto tratta 30 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "45",
       "55",
@@ -4679,7 +4679,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0276",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 12 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 76: un addetto tratta 12 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "30",
       "42",
@@ -4696,7 +4696,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0277",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 21 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 77: un addetto tratta 21 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "49",
       "42",
@@ -4713,7 +4713,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0278",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 32 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 78: un addetto tratta 32 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "56",
       "64",
@@ -4730,7 +4730,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0279",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 45 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 79: un addetto tratta 45 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "72",
       "90",
@@ -4747,7 +4747,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0280",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 60 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 80: un addetto tratta 60 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "90",
       "110",
@@ -4764,7 +4764,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0281",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 6 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 81: un addetto tratta 6 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "18",
       "15",
@@ -4781,7 +4781,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0282",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 12 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 82: un addetto tratta 12 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "24",
       "28",
@@ -4798,7 +4798,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0283",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 20 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 83: un addetto tratta 20 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "35",
       "45",
@@ -4815,7 +4815,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0284",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 30 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 84: un addetto tratta 30 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "48",
       "60",
@@ -4832,7 +4832,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0285",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 42 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 85: un addetto tratta 42 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "70",
       "63",
@@ -4849,7 +4849,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0286",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 16 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 86: un addetto tratta 16 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "40",
       "48",
@@ -4866,7 +4866,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0287",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 27 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 87: un addetto tratta 27 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "54",
       "72",
@@ -4883,7 +4883,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0288",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 40 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 88: un addetto tratta 40 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "70",
       "90",
@@ -4900,7 +4900,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0289",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 15 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 89: un addetto tratta 15 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "27",
       "24",
@@ -4917,7 +4917,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0290",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 24 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 90: un addetto tratta 24 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "36",
       "40",
@@ -4934,7 +4934,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0291",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 10 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 91: un addetto tratta 10 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "25",
       "35",
@@ -4951,7 +4951,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0292",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 18 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 92: un addetto tratta 18 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "36",
       "48",
@@ -4968,7 +4968,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0293",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 28 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 93: un addetto tratta 28 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "56",
       "49",
@@ -4985,7 +4985,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0294",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 40 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 94: un addetto tratta 40 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "64",
       "72",
@@ -5002,7 +5002,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0295",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 54 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 95: un addetto tratta 54 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "81",
       "99",
@@ -5019,7 +5019,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0296",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 20 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
+    "question": "Caso 96: un addetto tratta 20 pratiche in 2 ore. Allo stesso ritmo, quante in 6 ore?",
     "choices": [
       "50",
       "70",
@@ -5036,7 +5036,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0297",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 9 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
+    "question": "Caso 97: un addetto tratta 9 pratiche in 3 ore. Allo stesso ritmo, quante in 7 ore?",
     "choices": [
       "21",
       "18",
@@ -5053,7 +5053,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0298",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 16 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
+    "question": "Caso 98: un addetto tratta 16 pratiche in 4 ore. Allo stesso ritmo, quante in 8 ore?",
     "choices": [
       "28",
       "32",
@@ -5070,7 +5070,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0299",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 25 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
+    "question": "Caso 99: un addetto tratta 25 pratiche in 5 ore. Allo stesso ritmo, quante in 9 ore?",
     "choices": [
       "40",
       "50",
@@ -5087,7 +5087,7 @@ window.PECS_QUESTIONS=(window.PECS_QUESTIONS||[]).concat([
     "id": "pecs2-logica-0300",
     "subject": "logica",
     "topic": "Problemi quantitativi",
-    "question": "Un addetto tratta 36 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
+    "question": "Caso 100: un addetto tratta 36 pratiche in 6 ore. Allo stesso ritmo, quante in 10 ore?",
     "choices": [
       "54",
       "66",

@@ -13,7 +13,8 @@ window.PECS_QUESTIONS = [
     "correct": 2,
     "explanation": "Ogni numero raddoppia.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-002",
@@ -28,7 +29,8 @@ window.PECS_QUESTIONS = [
     "correct": 0,
     "explanation": "Se A è contenuto in B e B non interseca C, A non interseca C.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-003",
@@ -43,7 +45,8 @@ window.PECS_QUESTIONS = [
     "correct": 1,
     "explanation": "Ogni macchina produce un pezzo in cinque minuti.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-004",
@@ -58,7 +61,8 @@ window.PECS_QUESTIONS = [
     "correct": 2,
     "explanation": "Il cerchio non è un poligono.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-005",
@@ -73,7 +77,8 @@ window.PECS_QUESTIONS = [
     "correct": 2,
     "explanation": "La relazione transitiva impone Anna > Bruno > Carla.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-006",
@@ -88,7 +93,8 @@ window.PECS_QUESTIONS = [
     "correct": 1,
     "explanation": "Dieci giorni equivalgono a una settimana e tre giorni.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-007",
@@ -103,7 +109,8 @@ window.PECS_QUESTIONS = [
     "correct": 2,
     "explanation": "Il 10% di 200 è 20.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-008",
@@ -118,7 +125,8 @@ window.PECS_QUESTIONS = [
     "correct": 3,
     "explanation": "2/3 è circa 0,667.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-009",
@@ -133,7 +141,8 @@ window.PECS_QUESTIONS = [
     "correct": 1,
     "explanation": "Dirimere significa risolvere una controversia o difficoltà.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-010",
@@ -148,7 +157,8 @@ window.PECS_QUESTIONS = [
     "correct": 1,
     "explanation": "«Ma» introduce il contrasto tra efficacia e necessità di controlli.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-011",
@@ -163,7 +173,8 @@ window.PECS_QUESTIONS = [
     "correct": 2,
     "explanation": "Il testo ammette le eccezioni espressamente previste.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-012",
@@ -178,7 +189,8 @@ window.PECS_QUESTIONS = [
     "correct": 0,
     "explanation": "Tacito si contrappone a espresso o esplicito.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-013",
@@ -193,7 +205,8 @@ window.PECS_QUESTIONS = [
     "correct": 1,
     "explanation": "La disponibilità è subordinata alla verifica.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-014",
@@ -208,7 +221,8 @@ window.PECS_QUESTIONS = [
     "correct": 1,
     "explanation": "Third-person singular present simple takes -s.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-015",
@@ -223,7 +237,8 @@ window.PECS_QUESTIONS = [
     "correct": 2,
     "explanation": "The idiom is 'interested in'.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-016",
@@ -238,7 +253,8 @@ window.PECS_QUESTIONS = [
     "correct": 1,
     "explanation": "The simple past form is 'wrote'.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-017",
@@ -253,7 +269,8 @@ window.PECS_QUESTIONS = [
     "correct": 2,
     "explanation": "First conditional: if + present, will + infinitive.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-018",
@@ -268,7 +285,8 @@ window.PECS_QUESTIONS = [
     "correct": 1,
     "explanation": "'Reduce' means decrease.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-019",
@@ -283,7 +301,8 @@ window.PECS_QUESTIONS = [
     "correct": 2,
     "explanation": "La RAM perde i dati quando l'alimentazione viene meno.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-020",
@@ -298,7 +317,8 @@ window.PECS_QUESTIONS = [
     "correct": 1,
     "explanation": "HTTPS usa TLS per proteggere la comunicazione.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-021",
@@ -313,7 +333,8 @@ window.PECS_QUESTIONS = [
     "correct": 0,
     "explanation": ".xlsx è il formato moderno di cartella Excel.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-022",
@@ -328,7 +349,8 @@ window.PECS_QUESTIONS = [
     "correct": 2,
     "explanation": "La verifica multifattore aggiunge un controllo.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-023",
@@ -343,7 +365,8 @@ window.PECS_QUESTIONS = [
     "correct": 0,
     "explanation": "L'operatore + somma valori o riferimenti.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-024",
@@ -358,7 +381,8 @@ window.PECS_QUESTIONS = [
     "correct": 1,
     "explanation": "La funzione legislativa è esercitata collettivamente dalle due Camere, salvo i casi previsti dalla Costituzione.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-025",
@@ -373,7 +397,8 @@ window.PECS_QUESTIONS = [
     "correct": 2,
     "explanation": "Firenze è il capoluogo regionale.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-026",
@@ -388,7 +413,8 @@ window.PECS_QUESTIONS = [
     "correct": 2,
     "explanation": "La Costituzione entrò in vigore il 1 gennaio 1948.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-027",
@@ -403,7 +429,8 @@ window.PECS_QUESTIONS = [
     "correct": 2,
     "explanation": "I membri del Parlamento europeo sono eletti direttamente.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-028",
@@ -418,7 +445,8 @@ window.PECS_QUESTIONS = [
     "correct": 1,
     "explanation": "Alessandro Manzoni è l'autore del romanzo.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-029",
@@ -433,7 +461,8 @@ window.PECS_QUESTIONS = [
     "correct": 0,
     "explanation": "L'Arno attraversa Firenze.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   },
   {
     "id": "seed-030",
@@ -448,6 +477,7 @@ window.PECS_QUESTIONS = [
     "correct": 2,
     "explanation": "Il colore di Marte deriva dai minerali contenenti ossidi di ferro.",
     "source": "original-demo",
-    "verified": false
+    "verified": false,
+    "topic": "Quesiti base"
   }
 ];
