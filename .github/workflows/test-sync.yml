@@ -1,10 +1,10 @@
-name: Validate question bank
+name: Test GitHub progress sync
 on:
   push:
-    branches: [main, feat/expanded-question-bank, feat/persistent-progress]
+    branches: [main, feat/github-progress-sync]
   pull_request:
 jobs:
-  validate:
+  progress:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -13,5 +13,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node scripts/validate-bank.mjs
       - run: node scripts/test-progress.mjs
+      - run: node scripts/test-github-sync.mjs
