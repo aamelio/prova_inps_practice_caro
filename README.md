@@ -1,23 +1,62 @@
-# PECS Lab — INPS 1695 practice
+# PECS Lab — INPS 1.695 PECS (2026)
 
-Practice webapp for the 2026 INPS *Funzionario progettazione, erogazione e controllo dei servizi* competition.
+Practice app for the Italian INPS *Funzionario progettazione, erogazione e controllo dei servizi* competition. **Independent project; not affiliated with INPS.**
 
-## Current status
-Repository bootstrapped. The full application will be proposed in a pull request. Sample questions are **original practice material**, not official 2026 questions.
+## Live app
 
-## Official preselettiva
-- 60 questions / 60 minutes, 4 choices, one correct.
-- Logic 15; verbal comprehension 10; English 10; computer skills 10; general knowledge 15.
-- Plus 5 reserve questions / 5 minutes.
-- October 27–30, 2026.
+After GitHub Pages deploys from `main` at root:
+https://aamelio.github.io/prova_inps_practice_caro/
 
-## Written examination
-November 9, 2026. Three technical/legal cloze passages, five comprehension questions and two situational cases, with 3 answer choices. Passing threshold: 21/30 in **each** section.
+## Question bank
 
-Source: the INPS call for applications and exam-calendar notice supplied by the project owner.
+**369 original practice questions (draft, not official, not independently fact-checked).**
 
-## Hosting
-GitHub Pages: Settings → Pages → Deploy from branch → main → /(root), after merging the application PR. Note: the repository is private; GitHub Pages availability depends on the account plan and repository settings. Consider making the project public if appropriate; never commit sensitive personal data.
+| Materia | Quesiti disponibili | Quesiti per prova |
+| --- | ---: | ---: |
+| Logica | 80 | 15 |
+| Comprensione / ragionamento verbale | 58 | 10 |
+| Lingua inglese | 65 | 10 |
+| Competenze informatiche | 63 | 10 |
+| Cultura generale | 103 | 15 |
+| **Totale** | **369** | **60** |
 
-## Content quality
-Questions must have stable IDs, verified answers, explanations, origin/license metadata, and topic labels. Avoid wholesale copying from proprietary quiz sites.
+Enough distinct questions to support up to five non-overlapping 60-question primary mock papers **if only these full simulations are taken**. The simulator preferentially selects questions not previously used in a full exam. Ordinary practice and topic drills may repeat questions.
+
+Every question has a stable ID, correct-option index, explanation, subject and an origin field; the 339 newly added questions also have a subtopic. Each question has `verified:false` and requires subject-matter review. They are **original authored practice**, not reproductions of third-party banks or previous official tests.
+
+### Official exam format
+
+- Preselettiva, October 27–30, 2026: 60 questions, four choices, 60 minutes. Distribution 15 logic / 10 verbal / 10 English / 10 IT / 15 general knowledge.
+- Additionally five reserve questions in five minutes. **Reserve-question phase is not yet implemented in the application.**
+- Written exam, November 9, 2026: 3 technical-legal cloze passages with comprehension items, plus 2 situational scenarios, three options per question. Passing threshold 21/30 in each section. **Written exam simulator not yet implemented.**
+- Official notice does not settle a negative-marking formula in the provided documents, so raw practice accuracy is **not** an official exam score.
+
+## How it works
+
+Pure HTML/JS and static question scripts in `data/`. No backend or account required; progress stays in browser localStorage. Export/import progress as JSON via Statistiche.
+
+### Editing content
+
+- Base demonstration bank: `data/questions.js`
+- Logic: `data/logic-extra.js`
+- Verbal: `data/verbal-extra.js`
+- English: `data/english-extra.js`
+- IT: `data/computing-extra.js`
+- General knowledge: `data/culture-extra.js`
+
+For each new entry, provide unique `id`, `subject`, `topic`, `question`, `choices` (4 distinct strings), `correct` (zero-based), `explanation`, `source`, and `verified`. Run `node scripts/validate-bank.mjs` to validate the combined collection.
+
+## Sources and legal caution
+
+- [Official 2026 INPS competition (inPA)](https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=69e36f03408f4a80b3785a647fc77905)
+- [Constitution, Senate of the Italian Republic](https://www.senato.it/istituzione/la-costituzione)
+- [Article 288 TFEU (EUR-Lex)](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A12016E288)
+
+Links are **reference materials**, not an assertion that every authored question has been individually source-verified. Do not copy and republish proprietary exam-preparation banks without permission and necessary rights.
+
+## Remaining work
+
+1. Subject-matter review and factual verification with citations per question.
+2. More diverse question types and better calibration of difficulty using legally reusable historical items.
+3. Dedicated reserve-question timing; fully accurate written-exam cloze and situational practice.
+4. Improve spaced repetition and timed practice analytics.
