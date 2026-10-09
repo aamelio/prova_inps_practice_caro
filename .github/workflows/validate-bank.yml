@@ -13,6 +13,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node scripts/validate-bank.mjs
       - run: node scripts/test-progress.mjs
       - run: node scripts/test-github-sync.mjs
+      - run: node scripts/validate-bank.mjs
