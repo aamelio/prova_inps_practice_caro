@@ -9,6 +9,7 @@ const files = [
   'data/english-extra.js',
   'data/computing-extra.js',
   'data/culture-extra.js',
+  'data/questions.generated.js',
 ];
 const required = { logica: 15, verbale: 10, inglese: 10, informatica: 10, cultura: 15 };
 const ctx = { window: {} };
