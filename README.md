@@ -33,7 +33,16 @@ Every question has a stable ID, correct-option index, explanation, subject and a
 
 ## How it works
 
-Pure HTML/JS and static question scripts in `data/`. No backend or account required; progress stays in browser localStorage. Export/import progress as JSON via Statistiche.
+Pure HTML/JS and static question scripts in `data/`. No backend, login or cookies are required.
+
+### Persistent progress (same browser and device)
+- Completed practice sessions and simulations are stored in the browser's `localStorage` under `pecs-history-v1`, retaining previous history.
+- **In-progress sessions** save answers, question position, and timings automatically under `pecs-active-v1`. On the homepage, choose **Riprendi sessione** after reopening the website.
+- During a **timed exam**, the deadline is absolute: closing the browser does not stop the 60-minute countdown. Reopening after the deadline finalizes the exam.
+- **Statistiche** displays a per-subject breakdown, answer timings for new attempts and recent sessions.
+- **Esporta backup JSON** saves completed results and the unfinished session; **Importa backup** restores them, including legacy history-only JSON arrays.
+- Storage is local to the **same browser profile and device**. Clearing site data, private/incognito browsing or switching browsers/devices can lose or hide it. Export a backup periodically.
+- Opening the website via the same public URL on another device does **not** share progress. Cross-device synchronization would require an authenticated or secret-link-protected online database; do not put personal histories or credentials in this public GitHub repository.
 
 ### Editing content
 
