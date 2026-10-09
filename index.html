@@ -5,7 +5,7 @@
 :root{font-family:Inter,system-ui,Arial,sans-serif;color:#18243b;background:#f4f7fc}*{box-sizing:border-box}body{margin:0}header{background:#172f5f;color:#fff;padding:25px max(20px,calc((100vw - 960px)/2))}header h1{margin:0}header p{color:#ccdaf4}main{max-width:960px;margin:25px auto;padding:0 16px}.card{background:#fff;border:1px solid #dce4ef;border-radius:14px;padding:23px;margin-bottom:17px;box-shadow:0 5px 18px #14265009}.muted{color:#64748b}.pill{display:inline-block;background:#e5edf9;border-radius:40px;padding:5px 12px;font-size:12px;font-weight:650}nav{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}button,select{font:inherit}button{background:#2357bc;color:white;border:0;border-radius:9px;padding:12px 16px;cursor:pointer}button.secondary{background:#e9eef7;color:#213a63}button:disabled{opacity:.45;cursor:not-allowed}button:hover:not(:disabled){filter:brightness(.94)}button.choice{display:block;width:100%;text-align:left;background:#f5f8fc;color:#172a46;border:1px solid #d8e1ed;margin:9px 0;padding:14px}.choice.selected{background:#dceafe;border-color:#4778cf}.choice.right{background:#d8f4e5;border-color:#43916b}.choice.wrong{background:#ffe2e2;border-color:#c86666}.flex{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.space{justify-content:space-between}.bar{height:9px;background:#e3e9f2;border-radius:9px;overflow:hidden}.bar span{display:block;height:100%;background:#3977cc}.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px}.stat{background:#f1f6fc;border-radius:12px;padding:15px}select{padding:11px;border:1px solid #cbd5e1;border-radius:9px;max-width:100%}details{margin-top:12px}footer{max-width:960px;margin:30px auto;padding:20px;color:#718096;font-size:13px}.hidden{display:none}#timer{font-weight:750;font-variant-numeric:tabular-nums}@media(max-width:550px){header{padding:20px}main{margin:12px auto}.card{padding:16px}}
 </style></head>
 <body><header><h1>PECS Lab</h1><p>Preparazione al concorso INPS 1.695 PECS · 2026</p><span class="pill">Banca dati originale di esercitazione — non ufficiale</span></header>
-<main><nav><button id="homeBtn" class="secondary">Panoramica</button><button id="practiceBtn" class="secondary">Allenamento</button><button id="examBtn" class="secondary">Simulazione</button><button id="errorsBtn" class="secondary">Ripasso errori</button><button id="statsBtn" class="secondary">Statistiche</button></nav><div id="view"></div></main>
+<main><nav><button id="homeBtn" class="secondary">Panoramica</button><button id="practiceBtn" class="secondary">Allenamento</button><button id="examBtn" class="secondary">Simulazione</button><button id="errorsBtn" class="secondary">Ripasso errori</button><button id="statsBtn" class="secondary">Statistiche</button><button id="githubSyncBtn" class="secondary">GitHub Sync</button></nav><div id="view"></div></main>
 <footer>Questo sito è indipendente dall'INPS. Le simulazioni non riproducono una banca dati ufficiale. Le risposte non vengono inviate a un server; il progresso resta nel browser.</footer>
 <script src="data/questions.js"></script>
 <script src="data/logic-extra.js"></script>
@@ -14,6 +14,7 @@
 <script src="data/computing-extra.js"></script>
 <script src="data/culture-extra.js"></script>
 <script src="data/questions.generated.js"></script>
+<script src="sync/github-sync.js"></script>
 <script>
 "use strict";
 const blueprints=[["logica",15],["verbale",10],["inglese",10],["informatica",10],["cultura",15]];
@@ -25,7 +26,7 @@ let history=(()=>{try{return JSON.parse(localStorage.getItem("pecs-history-v1"))
 const ACTIVE_KEY="pecs-active-v1";
 let storageOk=true;
 function persist(){
- try{localStorage.setItem("pecs-history-v1",JSON.stringify(history));storageOk=true;return true}
+ try{localStorage.setItem("pecs-history-v1",JSON.stringify(history));storageOk=true;window.PECS_GITHUB_SYNC?.schedule();return true}
  catch{storageOk=false;alert("Impossibile salvare la cronologia in questo browser. Esporta subito un backup dalle Statistiche.");return false}
 }
 function loadSnapshot(){
@@ -38,10 +39,10 @@ function loadSnapshot(){
 function saveSnapshot(){
  if(!run||run.finished)return false;
  const snap={version:1,ids:run.qs.map(q=>q.id),answers:run.answers,idx:run.idx,exam:run.exam,deadline:run.deadline,startedAt:run.startedAt,timings:run.timings,updatedAt:Date.now()};
- try{localStorage.setItem(ACTIVE_KEY,JSON.stringify(snap));storageOk=true;return true}
+ try{localStorage.setItem(ACTIVE_KEY,JSON.stringify(snap));storageOk=true;window.PECS_GITHUB_SYNC?.schedule();return true}
  catch{storageOk=false;alert("Il salvataggio automatico non è disponibile. Controlla le impostazioni del browser.");return false}
 }
-function clearSnapshot(){try{localStorage.removeItem(ACTIVE_KEY)}catch{}}
+function clearSnapshot(){try{localStorage.removeItem(ACTIVE_KEY);localStorage.setItem("pecs-active-updated",String(Date.now()))}catch{}window.PECS_GITHUB_SYNC?.schedule()}
 function noteTiming(id){
  if(!run||!run.viewStarted)return;
  const now=Date.now();
@@ -155,7 +156,7 @@ function finish(){
  const correct=run.qs.filter(q=>run.answers[q.id]===q.correct).length;
  const answered=run.qs.filter(q=>run.answers[q.id]!==undefined).length;
  const questions=run.qs.map(q=>({id:q.id,subject:q.subject,topic:q.topic||null,right:run.answers[q.id]===q.correct,answer:run.answers[q.id]??null,correctAnswer:q.correct,timeMs:Math.round(run.timings[q.id]||0)}));
- history.push({date:new Date().toISOString(),startedAt:new Date(run.startedAt).toISOString(),durationMs:Date.now()-run.startedAt,mode:run.exam?"exam":"practice",count:run.qs.length,correct,answered,questions});
+ history.push({sessionId:typeof crypto!=="undefined"&&crypto.randomUUID?crypto.randomUUID():"session-"+Date.now()+"-"+Math.random().toString(36).slice(2),date:new Date().toISOString(),startedAt:new Date(run.startedAt).toISOString(),durationMs:Date.now()-run.startedAt,mode:run.exam?"exam":"practice",count:run.qs.length,correct,answered,questions});
  const saved=persist();if(saved)clearSnapshot();
  const wrong=run.qs.filter(q=>run.answers[q.id]!==q.correct);
  view.innerHTML='<section class="card"><h2>Risultati</h2><div class="stats"><div class="stat"><b>'+correct+' / '+run.qs.length+'</b><p>Corrette</p></div><div class="stat"><b>'+answered+'</b><p>Risposte date</p></div><div class="stat"><b>'+Math.round(100*correct/run.qs.length)+'%</b><p>Precisione</p></div></div>'+(saved?'<p class="muted">Risultati salvati in questo browser.</p>':'<p><b>Attenzione:</b> i risultati non sono stati salvati. Controlla le impostazioni del browser.</p>')+'<h3>Da ripassare</h3>'+(wrong.length?wrong.map(q=>'<details><summary>'+esc(q.question)+'</summary><p><b>'+esc(q.choices[q.correct])+'</b> — '+esc(q.explanation||'')+'</p></details>').join(''):'<p>Nessun errore.</p>')+'<div class="flex" style="margin-top:20px"><button onclick="practice()">Nuovo allenamento</button><button class="secondary" onclick="errors()">Ripasso errori</button><button class="secondary" onclick="stats()">Statistiche</button></div></section>';
@@ -187,7 +188,7 @@ function stats(){
   return '<tr><td>'+esc(when)+'</td><td>'+(h.mode==='exam'?'Simulazione':'Allenamento')+'</td><td>'+Number(h.correct||0)+'/'+Number(h.count||0)+'</td></tr>'
  }).join('');
  const saved=loadSnapshot();
- view.innerHTML='<section class="card"><h2>Statistiche e cronologia</h2><div class="stats"><div class="stat"><b>'+history.length+'</b><p>Sessioni completate</p></div><div class="stat"><b>'+count+'</b><p>Quesiti svolti</p></div><div class="stat"><b>'+(count?Math.round(100*correct/count):0)+'%</b><p>Precisione complessiva</p></div></div><h3>Risultati per materia</h3><table width="100%" cellspacing="10"><thead><tr><th align="left">Materia</th><th>Risposte</th><th>Corrette</th><th>Tempo medio*</th></tr></thead><tbody>'+breakdownRows+'</tbody></table><p class="muted" style="font-size:12px">*Il tempo medio è disponibile soltanto per le risposte registrate dalla nuova versione.</p><h3>Ultime 10 sessioni</h3>'+(latest?'<table width="100%" cellspacing="10"><thead><tr><th align="left">Data</th><th>Tipo</th><th>Risultato</th></tr></thead><tbody>'+latest+'</tbody></table>':'<p>Non sono ancora state concluse sessioni.</p>')+(saved?'<p><b>È presente una sessione incompleta salvata.</b> <button class="secondary" id="resumeFromStats">Riprendi</button></p>':'')+'<h3>Backup dei dati</h3><p class="muted">Le risposte e i risultati restano in questo browser, anche dopo la chiusura. Non usiamo cookie. Se cambi dispositivo o cancelli i dati del sito, avrai bisogno di un backup.</p><div class="flex"><button id="export">Esporta backup JSON</button><label>Importa backup <input type="file" accept="application/json" id="import"></label></div></section>';
+ view.innerHTML='<section class="card"><h2>Statistiche e cronologia</h2><div class="stats"><div class="stat"><b>'+history.length+'</b><p>Sessioni completate</p></div><div class="stat"><b>'+count+'</b><p>Quesiti svolti</p></div><div class="stat"><b>'+(count?Math.round(100*correct/count):0)+'%</b><p>Precisione complessiva</p></div></div><h3>Risultati per materia</h3><table width="100%" cellspacing="10"><thead><tr><th align="left">Materia</th><th>Risposte</th><th>Corrette</th><th>Tempo medio*</th></tr></thead><tbody>'+breakdownRows+'</tbody></table><p class="muted" style="font-size:12px">*Il tempo medio è disponibile soltanto per le risposte registrate dalla nuova versione.</p><h3>Ultime 10 sessioni</h3>'+(latest?'<table width="100%" cellspacing="10"><thead><tr><th align="left">Data</th><th>Tipo</th><th>Risultato</th></tr></thead><tbody>'+latest+'</tbody></table>':'<p>Non sono ancora state concluse sessioni.</p>')+(saved?'<p><b>È presente una sessione incompleta salvata.</b> <button class="secondary" id="resumeFromStats">Riprendi</button></p>':'')+'<h3>Backup dei dati</h3><p class="muted">Le risposte sono salvate automaticamente su questo browser, senza cookie. Per condividerle tra dispositivi collega GitHub Sync. Il backup JSON rimane consigliato.</p><div class="flex"><button id="export">Esporta backup JSON</button><label>Importa backup <input type="file" accept="application/json" id="import"></label></div></section>';
  if(saved)document.getElementById("resumeFromStats").onclick=resumeSession;
  document.getElementById("export").onclick=()=>{
   const payload={version:2,exportedAt:new Date().toISOString(),history,active:loadSnapshot()};
@@ -214,5 +215,40 @@ function stats(){
  };
 }
 
+function githubSyncPage(){
+ if(run&&!run.finished){noteTiming(run.qs[run.idx].id);saveSnapshot()}
+ stop();run=null;
+ view.innerHTML='<section class="card"><h2>Sincronizzazione GitHub</h2><p>Salva i risultati su <code>progress.json</code> del branch <code>progress-data</code> di questo stesso repository GitHub. Nessun servizio esterno, account nell’app o cookie.</p><p><b>Attenzione:</b> il repository è pubblico: chiunque può leggere lo storico delle risposte. Un token GitHub con permesso Contents (lettura e scrittura) può anche modificare altri file del repository; non condividerlo né inserirlo nel codice.</p><div id="githubSyncPanel"></div></section>';
+ window.PECS_GITHUB_SYNC?.render();
+}
+window.PECS_GITHUB_SYNC?.initialize({
+ getHistory:()=>history,
+ setHistory:(merged)=>{
+  history=merged;
+  try{localStorage.setItem("pecs-history-v1",JSON.stringify(history))}
+  catch{ /* local backup may be unavailable in this browser */ }
+ },
+ getActive:()=>{
+  const snapshot=loadSnapshot();
+  let updatedAt=0;
+  try{updatedAt=Number(localStorage.getItem("pecs-active-updated")||0)}catch{}
+  return {snapshot,updatedAt:Math.max(updatedAt,Number(snapshot?.updatedAt||0))};
+ },
+ setActive:(snapshot,updatedAt)=>{
+  try{
+   localStorage.setItem("pecs-active-updated",String(updatedAt||0));
+   // Do not unexpectedly replace a currently open quiz in the UI.
+   if(!run){
+    if(snapshot)localStorage.setItem(ACTIVE_KEY,JSON.stringify(snapshot));
+    else localStorage.removeItem(ACTIVE_KEY);
+   }
+  }catch{}
+ },
+ updated:()=>{
+  if(!run&&view.innerHTML.includes("La prova preselettiva"))home();
+  else if(!run&&view.innerHTML.includes("Statistiche e cronologia"))stats();
+ }
+});
+document.getElementById("githubSyncBtn").onclick=githubSyncPage;
 document.getElementById("homeBtn").onclick=home;document.getElementById("practiceBtn").onclick=practice;document.getElementById("examBtn").onclick=exam;document.getElementById("errorsBtn").onclick=errors;document.getElementById("statsBtn").onclick=stats;home();
 </script></body></html>
